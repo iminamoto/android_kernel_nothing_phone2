@@ -12,7 +12,7 @@ export PATH=${CLANG_PATH}:${PATH}
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export CROSS_COMPILE=$MAIN/clang-r416183b/bin/aarch64-linux-gnu- CC=clang CXX=clang++
 
-DEFCONFIG="gki_defconfig"
+DEFCONFIG="gki_defconfig vendor/waipio_GKI.config"
 
 # Paths
 KERNEL_DIR=`pwd`
